@@ -20,20 +20,6 @@
                ReferencedContainer = "container:cachePushDemoApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B9ACAF21A0CE411002FAC96"
-               BuildableName = "cachePushAppTests.xctest"
-               BlueprintName = "cachePushAppTests"
-               ReferencedContainer = "container:cachePushDemoApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B9ACAF21A0CE411002FAC96"
-               BuildableName = "cachePushAppTests.xctest"
-               BlueprintName = "cachePushAppTests"
-               ReferencedContainer = "container:cachePushDemoApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
