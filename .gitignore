@@ -1,1 +1,6 @@
 .DS_Store
+
+# Exclude personal Xcode user settings
+xcuserdata/ 
+
+Pods
