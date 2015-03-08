@@ -1,9 +1,4 @@
 
-> ###[WORK IN PROGRESS:]###
->
-> I'm still working on this project, when it's done this notice will be removed. Come back soon.
-
-
 HttpSmartCache
 ================
 
