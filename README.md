@@ -11,7 +11,7 @@ HttpSmartCache
 
 Technique and helper classes to boost the performance of your HTTP/1.1 requests.
 
-More details about the it can be found at: http://ti.eng.br/<page-will-be-available-soon>
+More details about the it can be found at: http://ti.eng.br/?p=1023
 
 The implementation requires Couchbase Lite at the mobile side, and Couchbase Sync Gateway at the backend.
 
@@ -25,7 +25,7 @@ UIImage+CBCache : Built on top of NSURLSession+CBCache category, this can be use
 
 ### 2) cachePushDemoApp 
 
-A working iOS sample project demonstrating the technique
+A working iOS sample project demonstrating the technique (click for video):
 
 [![Click to open video](https://github.com/tfalencar/HttpSmartCache/blob/master/loading.png)](http://ti.eng.br/?p=1273)
 
