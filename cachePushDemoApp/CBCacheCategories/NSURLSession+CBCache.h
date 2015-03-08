@@ -14,6 +14,12 @@
 -(NSURLSessionDataTask *)cbcache_dataTaskWithURL:(NSURL *)url
                               completionHandler:(void (^)(NSData *, NSURLResponse *, NSError *))completionHandler;
 
+-(NSURLSessionDataTask *)cbcache_dataTaskWithURL:(NSURL *)url;
+
+-(NSURLSessionDataTask *)cbcache_dataTaskWithRequest:(NSURLRequest *)request completionHandler:(void (^)(NSData *, NSURLResponse *, NSError *))completionHandler;
+-(NSURLSessionDataTask *)cbcache_dataTaskWithRequest:(NSURLRequest *)request;
+
+
 @property (nonatomic, retain) CBLDatabase * databaseObject;
 
 //if TRUE, will not record if HTTP response header says so
