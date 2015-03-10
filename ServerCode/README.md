@@ -96,4 +96,10 @@ cb_host = 'localhost'
 - Now run it: 
 `python run.py`
 
+When you want a certain response doc to be updated, delete the respective (or simply all) row from:
+
+```
+use demoapp_db
+delete from recordedresponses;
+```
 
