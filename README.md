@@ -2,9 +2,9 @@
 HttpSmartCache
 ================
 
-![Alt text](https://github.com/tfalencar/HttpSmartCache/blob/master/AirplaneCouchRest.png)
+![Image](https://github.com/tfalencar/HttpSmartCache/blob/master/AirplaneCouchRest.png)
 
-Technique and helper classes for improved User Experience (speed) and off-line handling for HTTP/1.1 GET requests.
+Technique and helper classes for improved User Experience (speed) and off-line support of HTTP/1.1 GET requests.
 
 
 ### What can it do for you?
