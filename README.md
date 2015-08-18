@@ -4,7 +4,7 @@ HttpSmartCache
 
 ![Alt text](https://github.com/tfalencar/HttpSmartCache/blob/master/AirplaneCouchRest.png)
 
-Technique and helper classes to boost the performance of your HTTP/1.1 requests.
+Technique and helper classes for improved User Experience (speed) and off-line handling for HTTP/1.1 GET requests.
 
 
 ### What can it do for you?
@@ -14,16 +14,16 @@ Technique and helper classes to boost the performance of your HTTP/1.1 requests.
 
 2- Fast response for already requested GET's (Improved UX)
 
-3- Automatic handling of data update (Remove complexities caused by stale data)
+3- Automatic handling of data update (eliminate problems caused by stale data)
 
 All of that, for any of your standard GET REST APIs (no modifications in the API whatsoever required). 
 
 
 ### What it can not do for you?
 
-As with any caching system, this project will provide little value to data which is completely dynamic, and will have no effect in the speed of requests other than "GET" (e.g. PUT, POST, etc).
+As with any caching system, this project will provide little value to data which is completely dynamic, and will have no effect in the speed of requests other than "GET" (e.g. PUT, POST, etc). Therefore, such requests can be redirected to the API server with e.g., nginx (bypassing this caching layer).
 
-That said, *differently* from most caching systems, frequent updates can be "speed-up" because of the "push nature" of the project - no additional request is required for an already cached 'GET'.
+That said, *differently* from most caching systems, frequent updates can be "speed-up" because of the "push nature" of the technique - no additional request is required for an already cached 'GET'.
 
 
 ### Requirements
