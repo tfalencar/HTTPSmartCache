@@ -6,9 +6,30 @@ HttpSmartCache
 
 Technique and helper classes to boost the performance of your HTTP/1.1 requests.
 
-More details about the it can be found at: http://ti.eng.br/?p=1023
+
+### What can it do for you?
+
+Obtain:
+
+1- 'Offline support' for HTTP GET requests
+2- Fast response for already requested GET's (Improved UX)
+3- Automatic handling of data update (Remove complexities caused by stale data)
+
+All of that, for any of your standard GET REST APIs (no modifications in the API whatsoever required). 
+
+
+### What it cannot do for you
+
+As with any caching system, this project will provide little value to data which is completely dynamic, and will have no effect to in the speed of requests other than "GET" (e.g. PUT, POST, etc).
+
+That said, *differently* from most caching systems, frequent updates can be "speed-up" because of the "push nature" of the project - no additional request is required for an already cached 'GET'.
 
 The implementation requires Couchbase Lite at the mobile side, and Couchbase Sync Gateway at the backend.
+
+Example:
+
+![Alt text](https://github.com/tfalencar/HttpSmartCache/blob/master/integration.png)
+
 
 This repository is divided in three parts:
 
