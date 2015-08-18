@@ -26,6 +26,11 @@ As with any caching system, this project will provide little value to data which
 That said, *differently* from most caching systems, frequent updates can be "speed-up" because of the "push nature" of the technique - no additional request is required for an already cached 'GET'.
 
 
+### In depth explanation
+
+
+Can be found here: [http://ti.eng.br/improving-ux-restfully-with-http1-1-cache-injection/](http://ti.eng.br/improving-ux-restfully-with-http1-1-cache-injection/)
+
 ### Requirements
 
 The implementation requires Couchbase Lite at the mobile side, and Couchbase Sync Gateway at the backend.
