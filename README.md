@@ -35,7 +35,7 @@ Example:
 ![Alt text](https://github.com/tfalencar/HttpSmartCache/blob/master/integration.png)
 
 
-This repository is divided in three parts:
+This repository is divided in three parts / folders:
 
 ### 1) CBCacheCategories
 
