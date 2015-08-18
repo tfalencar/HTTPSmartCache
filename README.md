@@ -21,7 +21,7 @@ All of that, for any of your standard GET REST APIs (no modifications in the API
 
 ### What it can not do for you?
 
-As with any caching system, this project will provide little value to data which is completely dynamic, and will have no effect to in the speed of requests other than "GET" (e.g. PUT, POST, etc).
+As with any caching system, this project will provide little value to data which is completely dynamic, and will have no effect in the speed of requests other than "GET" (e.g. PUT, POST, etc).
 
 That said, *differently* from most caching systems, frequent updates can be "speed-up" because of the "push nature" of the project - no additional request is required for an already cached 'GET'.
 
@@ -47,7 +47,7 @@ UIImage+CBCache : Built on top of NSURLSession+CBCache category, this can be use
 
 A working iOS sample project demonstrating the technique (click for video):
 
-[![Video link](http://ti.eng.br/wp-content/uploads/2015/03/performanceComparison.mp4)](http://ti.eng.br/wp-content/uploads/2015/03/performanceComparison.mp4)
+[http://ti.eng.br/wp-content/uploads/2015/03/performanceComparison.mp4](http://ti.eng.br/wp-content/uploads/2015/03/performanceComparison.mp4)
 
 
 To use your own backend simply switch the demo server sync URL to your own.
